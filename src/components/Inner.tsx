@@ -57,7 +57,7 @@ export default function Inner({ children }: { children: React.ReactNode }) {
       return () => {
         clearTimeout(timeout);
       };
-    }, 2000);
+    }, 1000);
   }, []);
   const anim = (variants: Variants, custom?: number) => {
     return {
